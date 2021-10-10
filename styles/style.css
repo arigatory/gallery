@@ -22,14 +22,18 @@ a {
 }
 
 .header {
-    background-color: black;
-    min-height: 100px;
     color: #FFFFFF;
     position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	z-index: 10;
+}
+
+
+.header__top {
+    background-color: black;
+    min-height: 100px;
 	padding-top: 19px;
 }
 
@@ -81,4 +85,10 @@ a {
     width: 13px;
     height: 13px;
     display: inline-block;
+}
+
+
+
+.header__bottom {
+    background-color: wheat;
 }
