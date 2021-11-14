@@ -4,7 +4,8 @@
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box;
     font-size: 16px; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    color: white;
 }
 
 
@@ -17,20 +18,6 @@ html {
 a {
 	text-decoration: none;
 }
-
-/* .column {
-    float: left;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-.small-12 {
-    width: 100%;
-}   */
 
 
 .btn:hover {
@@ -141,43 +128,8 @@ a {
 } */
 
 
+/* HEADER */
 
-/* FOOTER */
-.footer {
-    background-color: black;
-}
-
-.footer-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white ;
-    min-height: 132px;
-    align-items: center;
-}
-
-.footer__socials {
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 210px;
-}
-
-.footer__social-img {
-    width: 50px;
-    height: 50px;
-}
-
-.footer__logo {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__logo-img {
-    justify-self: center;
-}
 
 #hamburgerButton {
     background: none;
@@ -213,6 +165,13 @@ a {
     text-align: left;
 }
 
+.navigation__link:hover {
+    color: #C283F3 ;
+}
+
+.navigation__link:active {
+    color: #7943A4 ;
+}
 
 .btn-close {
     background: none;
@@ -242,10 +201,134 @@ a {
     align-items: center;
 }
 
+.btn-enter:hover {
+    background-color: #9D5CD0;
+}
+
+
+.btn-enter:active {
+    background-color: #7943A4;
+}
+
 .btn-enter-icon {
     margin-right: 5px;
 }
 
 .btn-enter__text {
     font-size: 12px;
+}
+
+.open {
+    display: block;
+}
+
+/* MAIN */
+
+
+.main {
+    background-image: url(/img/main/small/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
+    min-height: 355px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.main__heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.main__text {
+    text-align: center;
+    size: 14px;
+    line-height: 16px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+
+.btn-subscribe {
+    background: #9D5CD0;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    font-size: 12px;
+    border: 2px solid #9D5CD0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    display: flex;
+    font-weight: 700;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn-subscribe:hover {
+    border: 3px solid #D1A9F0;
+}
+
+.btn-subscribe:active {
+    background: #7943A4;
+}
+
+
+
+/* About Us */
+
+.about-us__title {
+    color: #333333;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.about-us__text {
+    color: #333333;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: black;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white ;
+    min-height: 132px;
+    align-items: center;
+}
+
+.footer__socials {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 210px;
+}
+
+.footer__social-img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: left;
+}
+
+.footer__logo-img {
+    justify-self: left;
 }

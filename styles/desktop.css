@@ -1,3 +1,43 @@
 @media only screen and (min-width: 1920px) {
 
+.header__top {
+    justify-content: space-between;
+}
+
+#hamburgerButton {
+    display: none;
+}
+
+.navigation-menu {
+    display: flex;
+    position: static;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+}
+
+.btn-close {
+    display: none;
+}
+
+.navigation__list {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation__item {
+    margin: 0;
+    margin-right: 64px;
+}
+.btn-enter {
+    margin-left: 280px;
+    border: none;
+}
+
+.btn-search {
+    display: none;
+}
+
 }  /* end of media query */
