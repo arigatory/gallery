@@ -141,9 +141,6 @@ a {
 } */
 
 
-main {
-    height: 600px;
-}
 
 /* FOOTER */
 .footer {
@@ -180,4 +177,75 @@ main {
 
 .footer__logo-img {
     justify-self: center;
+}
+
+#hamburgerButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 18px;
+}
+
+.navigation-menu {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 90%);
+    padding: 15px;
+    display: none;
+}
+
+.navigation__list {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__item {
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.navigation__link {
+    display: block;
+    color:white;
+    text-align: left;
+}
+
+
+.btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+
+}
+
+.btn-enter {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    border: 2px solid #9D5CD0;
+    border-radius: 100px;
+    padding: 15px 30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn-enter-icon {
+    margin-right: 5px;
+}
+
+.btn-enter__text {
+    font-size: 12px;
 }
