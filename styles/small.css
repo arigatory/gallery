@@ -222,6 +222,42 @@ a {
     display: block;
 }
 
+.search-input {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 90%);
+    padding: 15px;
+    min-height: 75px;
+    padding-left: 50px;
+    display: none;
+}
+
+.search-input__btn-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.search-from {
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 70%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white ;
+}
+
 /* MAIN */
 
 
