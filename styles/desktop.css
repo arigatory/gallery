@@ -1,43 +1,54 @@
 @media only screen and (min-width: 1920px) {
 
-.header__top {
-    justify-content: space-between;
-}
+    .container {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
 
-#hamburgerButton {
-    display: none;
-}
+    .header__top {
+        justify-content: space-between;
+    }
 
-.navigation-menu {
-    display: flex;
-    position: static;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-}
+    #hamburgerButton {
+        display: none;
+    }
 
-.btn-close {
-    display: none;
-}
+    .navigation-menu {
+        display: flex;
+        position: static;
+        justify-content: space-around;
+        align-items: center;
+        width: auto;
+    }
 
-.navigation__list {
-    display: flex;
-    direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+    .btn-close {
+        display: none;
+    }
 
-.navigation__item {
-    margin: 0;
-    margin-right: 64px;
-}
-.btn-enter {
-    margin-left: 280px;
-    border: none;
-}
+    .navigation__list {
+        display: flex;
+        direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-.btn-search {
-    display: none;
-}
+    .navigation__item {
+        margin: 0;
+        margin-right: 64px;
+    }
+
+    .main {
+        background-image: url(/img/main/desktop/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
+        min-height: 800px;
+    }
+
+    .btn-enter {
+        margin-left: 280px;
+        border: none;
+    }
+
+    .btn-search {
+        display: none;
+    }
 
 }  /* end of media query */
