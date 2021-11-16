@@ -231,6 +231,7 @@ a {
     padding: 15px;
     min-height: 75px;
     padding-left: 50px;
+    display: none;
 }
 
 .search-input__btn-close {
