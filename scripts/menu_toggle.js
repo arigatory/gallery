@@ -1,13 +1,13 @@
 function toggleMenu() {
-    document.getElementById("navigation-menu").classList.toggle("open");
+    document.getElementById("navigationMenu").classList.toggle("open");
 }
 
 function closeMenu() {
-    document.getElementById("navigation-menu").classList.remove("open");
+    document.getElementById("navigationMenu").classList.remove("open");
 }
 
 let burger = document.getElementById('hamburgerButton');
 burger.onclick = toggleMenu;
 
-let x = document.getElementById('closeButton');
+let x = document.getElementById('btnCloseMenu');
 x.onclick = closeMenu;
