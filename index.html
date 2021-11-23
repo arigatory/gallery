@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Home | Blanchard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
 
     <link href="styles/normalize.css" rel="stylesheet">
@@ -14,6 +19,7 @@
     <link href="styles/medium.css" rel="stylesheet">
     <link href="styles/tablet.css" rel="stylesheet">
     <link href="styles/desktop.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 
 </head>
@@ -22,11 +28,11 @@
     <header class="header">
         <div class="container">
             <div class="header__top">
-                <button id="hamburgerButton">
+                <button id="hamburgerButton" class="hamburger-button">
                     <img src="img/header/burger.svg" />
                 </button>
                 <img src="img/header/logo.svg" class="header__logo" />
-                
+
                 <div class="navigation-menu" id="navigationMenu">
                     <nav class="header__navigation">
                         <button id="btnCloseMenu" class="btn-close">
@@ -52,45 +58,65 @@
                         <span class="btn-enter__text">Войти</button>
                     </button>
                 </div>
-                
+
                 <a href="#" class="btn-search" id="btnSearch">
                     <img src="img/header/search.svg" />
                 </a>
 
                 <div class="search-input" id="inputSearch">
-                   
-                        <button id="btnSearchClose" class="search-input__btn-close">
-                            &#x2715
-                        </button>
-                        <div>
 
-                            <form class="search-from" action="post">
-                                <a href="#" class="btn-search">
-                                    <img src="img/header/search.svg" />
-                                </a>
-                                <input type="text" class="search-from__input"/>
-                            </form>
-                        </div>
+                    <button id="btnSearchClose" class="search-input__btn-close">
+                        &#x2715
+                    </button>
+                    <div>
+
+                        <form class="search-from" action="post">
+                            <a href="#" class="btn-search">
+                                <img src="img/header/search.svg" />
+                            </a>
+                            <input type="text" class="search-from__input" />
+                        </form>
+                    </div>
 
                 </div>
             </div>
         </div>
     </header>
 
-    <main>
-        <div class="main container">
+
+    <main class="hero">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-pic-1"></div>
+                <div class="swiper-slide swiper-pic-2"></div>
+                <div class="swiper-slide swiper-pic-3"></div>
+            </div>
+            <!-- If we need pagination -->
+        </div>
+        <div class="swiper-container main container">
             <h1 class="main__heading">Прикоснитесь к прекрасному</h1>
-            <div class="main__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</div>
-            <a  class="btn-subscribe" href="#">Подписаться на рассылку</a>
+            <div class="main__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий
+                создаёт предпосылки для новых предложений.</div>
+            <a class="btn-subscribe" href="#">Подписаться на рассылку</a>
         </div>
     </main>
+
 
     <section class="about-us">
         <div class="container">
             <h2 class="about-us__title">О нас</h2>
-            <p class="about-us__text">Ясность нашей позиции очевидна: семантический разбор внешних противодействий однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках спецификации современных стандартов, действия представителей оппозиции набирают популярность среди определенных слоев населения, а значит, должны быть разоблачены.</p>    
+            <p class="about-us__text">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+                однозначно определяет каждого участника как способного принимать собственные решения касаемо
+                распределения внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный
+                прототип будущего проекта влечет за собой процесс внедрения и модернизации модели развития. Повседневная
+                практика показывает, что высокое качество позиционных исследований создаёт необходимость включения в
+                производственный план целого ряда внеочередных мероприятий с учётом комплекса распределения внутренних
+                резервов и ресурсов. В рамках спецификации современных стандартов, действия представителей оппозиции
+                набирают популярность среди определенных слоев населения, а значит, должны быть разоблачены.</p>
         </div>
-        </section>
+    </section>
 
     <section class="galery">
 
@@ -139,6 +165,8 @@
     </footer>
     <script src="/scripts/menu_toggle.js"></script>
     <script src="/scripts/search_toggle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/scripts/swiper.js"></script>
 </body>
 
 </html>

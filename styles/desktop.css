@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1200px) {
 
     .container {
         padding-left: 160px;
@@ -38,8 +38,19 @@
     }
 
     .main {
-        background-image: url(/img/main/desktop/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
         min-height: 800px;
+    }
+
+    .swiper-pic-1 {
+        background-image: url(/img/main/desktop/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
+    }
+    
+    .swiper-pic-2 {
+        background-image: url(/img/main/desktop/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.jpg);
+    }
+    
+    .swiper-pic-3 {
+        background-image: url(/img/main/desktop/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png);
     }
 
     .btn-enter {
