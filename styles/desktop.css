@@ -5,10 +5,6 @@
         padding-right: 160px;
     }
 
-    .header__top {
-        justify-content: space-between;
-    }
-
     #hamburgerButton {
         display: none;
     }
@@ -54,7 +50,6 @@
     }
 
     .btn-enter {
-        margin-left: 280px;
         border: none;
     }
 

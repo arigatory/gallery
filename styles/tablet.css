@@ -1,6 +1,12 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
 
+    .main__heading {
+        max-width: 65%;
+    }
     
+    .main__text {
+        max-width: 80%;
+    }
     .swiper-pic-1 {
         background-image: url(/img/main/tablet/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
     }
@@ -14,11 +20,4 @@
     }
 
 
-    .main__heading{
-        max-width: 50%;
-    }
-
-    .main__text {
-        max-width: 50%;
-    }
 }  /* end of media query */
