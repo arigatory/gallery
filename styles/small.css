@@ -21,6 +21,10 @@ a {
 	text-decoration: none;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+  }
 
 .btn:hover {
     cursor: pointer;
@@ -38,20 +42,26 @@ a {
 /* HEADER */
 
 .header {
-    background-color: black;
+    background-color: transparent;
     position: absolute;
     z-index: 5;
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 
-.header__top {
+.header-top {
+    background-color: black;
+}
+
+.header-top__content {
     min-height: 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 
 .hamburger-button {
@@ -74,7 +84,7 @@ a {
     width: 100%;
 }
 
-.header__bottom {
+.header-bottom {
     display: none;
 }
  
@@ -193,6 +203,10 @@ input[type="text"] {
     background: transparent;
     border: none;
     border-bottom: 2px solid white ;
+}
+
+.header__bottom {
+    display: none;
 }
 
 /* MAIN */

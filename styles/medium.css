@@ -9,6 +9,13 @@
         min-height: 100px;
     }
 
+    .header-top {
+        min-height: 100px;
+    }
+
+    .header-top__content{
+        min-height: 100px;
+    }
     .hamburger-button {
         width: 37px;
     }
@@ -45,6 +52,7 @@
         font-weight: 700;
         text-align: left;
         margin-bottom: 10px;
+        max-width: 90%;
     }
 
     .main__text {
